@@ -1,0 +1,40 @@
+Arguments: 
+  /Users/admin/.nvm/versions/node/v16.14.2/bin/node /usr/local/bin/yarn add --dev @electron-forge/cli
+
+PATH: 
+  /Users/admin/.nvm/versions/node/v16.14.2/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Applications/Yunshu.app/Contents/Public:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/admin/.nvm/versions/node/v16.14.2/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/mysql/bin:/usr/local/mysql/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.14.2
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile '/Users/admin/Library/Caches/Yarn/v6/npm-universalify-0.1.2-b646f69be3942dabcecc9d6639c80dc105efaa66-integrity/node_modules/universalify/LICENSE' -> '/Users/admin/Desktop/my-porject/electron-app/node_modules/electron/node_modules/universalify/LICENSE'
+
+npm manifest: 
+  {
+    "name": "electron-app",
+    "version": "1.0.0",
+    "description": "zjf客户端",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "electron": "^28.1.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
